@@ -10,6 +10,7 @@ const rooms = [
     area: "18",
     poeple: "2",
     bed: "1 queen bed or 2 simple bed",
+    price: "180",
   },
   {
     imgUrl:
@@ -18,6 +19,7 @@ const rooms = [
     area: "18",
     poeple: "2",
     bed: "1 queen bed or 2 simple bed",
+    price: "200",
   },
   {
     imgUrl:
@@ -26,6 +28,7 @@ const rooms = [
     area: "18",
     poeple: "2",
     bed: "1 queen bed or 2 simple bed",
+    price: "280",
   },
   {
     imgUrl:
@@ -34,6 +37,7 @@ const rooms = [
     area: "18",
     poeple: "2",
     bed: "1 queen bed or 2 simple bed",
+    price: "250",
   },
 ];
 const Rooms = () => {
@@ -52,6 +56,7 @@ const Rooms = () => {
                     area={data.area}
                     poeple={data.poeple}
                     bed={data.bed}
+                    price={data.price}
                   />
                 </Col>
               );

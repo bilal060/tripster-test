@@ -1,3 +1,9 @@
+body {
+    font-family: 'Satoshi', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 h1,
 h2,
 h3,
@@ -23,13 +29,35 @@ label {
 }
 
 .app-content {
-    padding: 20px 0;
     height: calc(100vh - 80px);
     overflow-y: auto;
 
 }
 
-.card-heading {}
+.rooms .room-card-main {
+    border-radius: 20px !important;
+}
+
+.review .progress {
+    height: 8px !important;
+}
+
+.text-grey {
+    color: #b5b5b5 !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.review-main .review-sub {
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.review-main .review-sub:last-child {
+    border-bottom: 0 !important;
+}
 
 @media screen and (min-width:767px) {
     .room-card .room-img {
