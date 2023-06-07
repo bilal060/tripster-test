@@ -11,9 +11,7 @@ const HeroImages = () => {
   return (
     <Container>
       <Row>
-        <Col>
-          {/* <h1>arrow</h1> */}
-        </Col>
+        <Col>{/* <h1>arrow</h1> */}</Col>
       </Row>
       <Row>
         <Col md={6}>
@@ -43,7 +41,7 @@ const HeroImages = () => {
               <img
                 src={room4}
                 alt="room-4-image"
-                className="img-fluid rounded-4 h-100"
+                className="img-fluid rounded-0 h-100"
               />
             </Col>
             <Col sm={6}>
