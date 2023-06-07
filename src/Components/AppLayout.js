@@ -1,10 +1,11 @@
 import React from "react";
 import Header from "./Header";
 
-const AppLayout = () => {
+const AppLayout = ({ children }) => {
   return (
     <div>
       <Header />
+      {children}
     </div>
   );
 };

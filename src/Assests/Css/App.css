@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+label {
+    margin: 0 !important;
+}
+
+.app-header {
+    padding: 16px 0;
+    border-bottom: 1px solid #f2f2f2;
+    height: 80px;
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.header-btns {
+    width: 120px;
+}
+
+.app-content {
+    padding: 20px 0;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+
+}
+
+.card-heading {}
+
+@media screen and (min-width:767px) {
+    .room-card .room-img {
+        height: 200px;
+    }
+}

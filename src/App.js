@@ -1,6 +1,6 @@
 import "./Assests/Css/App.css";
 import AppLayout from "./Components/AppLayout";
-import Home from "./Components/Home";
+import Home from "./Pages/Home";
 
 function App() {
   return (
