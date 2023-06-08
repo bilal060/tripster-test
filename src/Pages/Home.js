@@ -6,8 +6,8 @@ import HeroSection from "../Components/HeroSection";
 const Home = () => {
   return (
     <div className="app-content">
-      {/* rooms */}
       <HeroSection />
+      {/* rooms */}
       <Rooms />
 
       {/* Review */}

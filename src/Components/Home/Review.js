@@ -59,23 +59,6 @@ const review = [
       },
     ],
   },
-  {
-    name: "Tony",
-    comments: "Excellent value for the price",
-    descriptions:
-      "We enjoyed our stay at this hotel. We will definitely come back",
-    service: [
-      {
-        detail: "Decent Location",
-      },
-      {
-        detail: "Service",
-      },
-      {
-        detail: "Bottle of champagne at room",
-      },
-    ],
-  },
 ];
 const Review = () => {
   let currentDate = new Date().toJSON().slice(0, 10);
@@ -112,7 +95,12 @@ const Review = () => {
                           <p className="text-grey mb-1 font-14">{data.name}</p>
                           <p className="fw-medium mb-2">{data.descriptions}</p>
                         </div>
-                        <p className="text-primary fw-bold">Excellent</p>
+                        <div className="d-flex align-items-center gap-2">
+                          <h2 className="fw-bold fs-5 text-success">
+                            Excellent
+                          </h2>
+                          <p className="rating fw-bold text-success">ID</p>
+                        </div>
                       </div>
                       <div className="d-flex align-items-end justify-content-between">
                         <ul>

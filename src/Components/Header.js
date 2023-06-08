@@ -7,8 +7,8 @@ const Header = () => {
       <Container>
         <Row className="justify-content-between">
           <Col>
-            <div className="d-flex align-items-center gap-4">
-              <h3 className="fs-3 fw-bold">Tripster</h3>
+            <div className="d-flex align-items-center gap-sm-4 gap-2">
+              <h3 className="fs-3 fw-bold mb-1">Tripster</h3>
               <div className="d-flex align-items-center gap-3">
                 <h6 className="fs-6 text-gray">Properties</h6>
                 <h6 className="fs-6 text-gray">Attractions</h6>

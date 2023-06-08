@@ -43,7 +43,7 @@ const rooms = [
 const Rooms = () => {
   return (
     <>
-      <div className="bg-light rooms py-5">
+      <div className="bg-light rooms pt-5 pb-4">
         <Container>
           <h3 className="fw-bold mb-3">Rooms</h3>
           <Row>
